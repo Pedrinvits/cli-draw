@@ -1,18 +1,22 @@
 {
   "name": "cli-draw",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "index.js",
+  "module": "index.mjs",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["todo terminal cli"],
   "author": "Pedro vitor mantovani",
-  "license": "ISC",
+  "license": "MIT",
   "description": "Your Project Task Manager",
   "type": "module",
   "bin": {
-    "todo": "./index.js"
+    "todo": "index.js"
+  },
+  "repository": {
+    "url": "https://github.com/Pedrinvits/cli-draw"
   },
   "dependencies": {
     "commander": "^12.1.0",
