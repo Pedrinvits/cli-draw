@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { Command } from 'commander';
 import showWelcomeMessage from './functions/showWelcomeMessage.js';
 import addTask from './functions/addTask.js';
